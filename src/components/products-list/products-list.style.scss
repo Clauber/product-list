@@ -1,0 +1,35 @@
+#product-list {
+    display: flex;
+    flex-direction: column;
+    .options {
+        display: flex;
+        margin: 20px 5px;
+    }
+    .dropdown {
+        align-self: flex-start;
+        margin-right: 10px;
+    }
+    .product {
+        display: flex;
+        background-color: #c1c1c1;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+        border: 1px solid #a0a0a0;
+        .image {
+            height: 100px;
+        }
+        .product-description {
+            display: flex;
+            padding-left: 10px;
+            flex-direction: column;
+            text-align: left;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .description {
+            font-size: 18px;
+        }
+    }
+}
